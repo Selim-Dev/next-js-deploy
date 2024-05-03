@@ -1,0 +1,33 @@
+{
+  "name": "next-js-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  },
+  "description": "This project is a Next.js 14 application that serves as a basic e-commerce app for the Maildroppa task. It utilizes JSON files served through the API folder to render a list of products on the home page.",
+  "main": "postcss.config.js",
+  "author": "",
+  "license": "ISC"
+}
